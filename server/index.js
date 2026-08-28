@@ -15,7 +15,7 @@ import paymentRouter from "./routes/payment.route.js"
 
 const app = express()
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://interview-agent-ph4h.onrender.com",
     credentials:true
 }))
 
